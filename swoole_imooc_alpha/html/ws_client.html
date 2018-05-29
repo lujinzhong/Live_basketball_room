@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ws</title>
+</head>
+<body>
+<h1>websocket test</h1>
+<script>
+	var wsurl="ws://127.0.0.1:8866";
+	var websocket=new WebSocket(wsurl);
+
+	websocket.onopen=function(evt){
+		websocket.send("xiaolu");
+		console.log("connect success");
+	}
+	websocket.onmessage=function(evt){
+		console.log("receive form server:"+evt.data);
+	}
+	websocket.onclose=function(evt){
+		console.log("close");
+
+	}
+	websocket.onerror=function(evt,e){
+		console.log("error:"+evt.data);
+	}
+
+
+</script>
+</body>
+</html>
