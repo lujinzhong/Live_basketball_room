@@ -61,4 +61,4 @@ layer
 ![](https://github.com/lujinzhong/Live_basketball_room/blob/master/image/主持人.png)
 
 
-建议环境自己搭建，不要说学swoole的PHPer连基本环境都不会搭，遇到坑就多查资料，没有过不去的坑。实在不行，没办法了，那就用我的导出虚拟机系统包把，用vmware导入即可，源码和环境都有了。最后祝大家swoole学习愉快。过段时间会放出一个用easyswoole写的web QQ群聊聊天室源码。
+建议环境自己搭建，不要说学swoole的PHPer连基本环境都不会搭，遇到坑就多查资料，没有过不去的坑。实在不行，没办法了，那就用我的导出虚拟机系统包把，用vmware导入即可，源码和环境都有了。最后祝大家swoole学习愉快。虚拟机导出系统分享：链接：https://pan.baidu.com/s/140PLiqkDaiPHaUHPBOit8Q 密码：95ko
