@@ -1,7 +1,7 @@
 # Live_basketball_room
 跟着singwa老师做的一个高性能篮球赛况直播室，主要包含实时直播模块和多人聊天模块，采用TP5整合原生swoole拓展编写。入门swoole最佳实战
 
-高性能直播赛事平台-这是慕课swoole实战的项目,开发环境基于
+高性能直播赛事平台-这是慕课swoole实战的项目,有些必要功能已完善,开发环境基于
 
 Linux (Ubuntu 16.04LTS) 
 
@@ -33,6 +33,8 @@ layer
 
 6.服务报警监控
 
+其中的thinkphp是主要项目文件，其余的demo都是测试swoole代码用的。注释写的不少。认真的看应该都能看懂。
+
 如何使用：
 1.环境要求（基本）：项目只能运行在linux系统，并确保安装了PHP环境以及安装了swoole拓展，并且swoole开启了异步redis，还有普通的redis也要安装，因为项目中中也有同步redis，tp5的对swoole的适配已经在源码中做好，最好直接按我的开发环境来。
 
@@ -47,11 +49,16 @@ layer
 （客户端界面基于移动端，后台页面基于PC端）
 
 登录界面：
+![](https://github.com/lujinzhong/Live_basketball_room/blob/master/image/login.png)
 
 登录后界面：
+![](https://github.com/lujinzhong/Live_basketball_room/blob/master/image/登录完.png)
 
 聊天室界面：
+![](https://github.com/lujinzhong/Live_basketball_room/blob/master/image/聊天室.png)
 
 主持人界面：
+![](https://github.com/lujinzhong/Live_basketball_room/blob/master/image/主持人.png)
 
-建议环境自己搭建，不要说学swoole的PHPer连基本环境都不会搭，遇到坑就多查资料，没有过不去的坑。实在不行，没办法了，那就用我的导出虚拟机系统包把，用vmware导入即可，源码和环境都有了。
+
+建议环境自己搭建，不要说学swoole的PHPer连基本环境都不会搭，遇到坑就多查资料，没有过不去的坑。实在不行，没办法了，那就用我的导出虚拟机系统包把，用vmware导入即可，源码和环境都有了。最后祝大家swoole学习愉快。过段时间会放出一个用easyswoole写的web QQ群聊聊天室源码。
